@@ -210,8 +210,8 @@ color:#2e3440}
 
 .about-section {
     flex: 1 1 300px;
-    background-color: #fff;
-    color: #d8dee9;
+    background-color: #2e3440;
+    color: #e5e9f0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -228,13 +228,13 @@ color:#2e3440}
 
 .about-section h2 {
     font-size: 1.5em;
-    color: #333;
+    color: #e5e9f0;
     margin-bottom: 10px;
 }
 
 .about-section p {
     font-size: 1em;
-    color: #666;
+    color: #e5e9f0;
     line-height: 1.6;
 }
 
