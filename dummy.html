@@ -6,41 +6,93 @@
   <title>PlacesToVisit</title>
   <link rel="stylesheet" href="styles.css">
 
-  <style>
-
-
-
+   <style>
+    /* Content and Slide */
     main {
-        display: flex;
-        justify-content: center;
-        padding: 20px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      min-height: 80vh;
     }
 
     .content {
-        max-width: 800px;
-        background: rgb(46, 52, 64);
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 20px;
+      max-width: 800px;
+      background: #3b4252; /* Nord dark grey */
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
     }
 
-    h1 {
-        font-size: 2rem;
-        color: #2e3440;
+    h1{
+      text-align: center;
     }
-
-    h2 {
-        font-size: 1.5rem;
-        color: #4c566a;
+    h1, h2 {
+      font-size: 2rem;
+      color: #d8dee9;
+      margin-bottom: 10px;
     }
 
     p {
-        margin: 1rem 0;
+      margin: 1rem 0;
+      color: #e5e9f0; /* Lighter text color */
     }
 
+    /* Slide Layout */
+    .slide-container {
+      display: block;
+    }
 
+    .slide {
+      background: #4c566a; /* Nord medium grey */
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 20px;
+      overflow: hidden;
+    }
 
-</style>
+    .slide img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .slide h2,h1 {
+      font-size: 1.8rem;
+      color: #8fbcbb; /* Nord frost */
+    }
+
+    .slide p {
+      font-size: 1.1rem;
+      color: #e5e9f0;
+    }
+    /* Footer */
+    footer {
+      background-color: #3b4252; /* Nord dark grey */
+      color: #d8dee9;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .slide1 {
+    background-color: #e5e9f0;
+    color: #2e3440;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    color: #e5e9f0;
+  }
+
+  </style>
 </head>
 <body>
   <nav class="navbar">
@@ -49,44 +101,43 @@
       <a href="index.html"><span class="website-name">PlacesToVisit</span></a>
     </div>
     <ul class="nav-links">
-        <li>
-          <div class="dropdown">
-            <button class="dropbtn">States ▼</button>
-            <div class="dropdown-content">
-              <a href="delhi.html">Delhi</a>
-              <a href="goa.html">Goa</a>
-              <a href="himachal.html">Himachal Pradesh</a>
-              <a href="index.html#states">All States..</a>
-            </div>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">States ▼</button>
+          <div class="dropdown-content">
+            <a href="delhi.html">Delhi</a>
+            <a href="himachal.html">Himachal Pradesh</a>
+            <a href="index.html#states">All States..</a>
           </div>
-        </li>
+        </div>
+      </li>
       <li><a href="index.html#about">About</a></li>
     </ul>
   </nav>
 
-
-
-<main>
+  <main>
     <div class="content">
-
-        <div class="header">
-            <h1>Place</h1>
-            <p style="font-size: 1.2rem;">Click on a state tile to get a detailed recommendation on places you should visit while travelling to that place.</p>
-          </div>
-        <h2>Overview</h2>
-        <p>para1</p>
-
-        <h2>Monuments</h2>
-        <p>para 2</p>
-
-        <h2>Conclusion</h2>
-        <p>para 3</p>
+      <div class="slide-container">
+        <div class="slide">
+        <h1>Dummy state article page</h1>
+        </div>
+        <div class="slide">
+          <h2>Visit Delhi or Himachal page instead.</h2>
+        </div>  
+        <div class="slide">
+          <h2>Monument 1</h2>
+          <h3></i>Overview</h3>
+          <p>
+            para about Monument 1.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit totam adipisci ut nisi, possimus quis repellat voluptate est neque odio modi in unde laborum quaerat explicabo temporibus recusandae, dicta officiis labore esse voluptas fugit eius. At debitis nesciunt reprehenderit et ad nostrum consectetur. Cum expedita fuga repellat sequi. Dolores consectetur atque architecto quos minima, incidunt alias ea error ab eveniet vero quisquam commodi neque ut inventore repellendus voluptate. Minus corrupti ipsum totam. Obcaecati cum iste ad, maxime facilis quibusdam similique error, voluptatibus beatae nam reprehenderit sed quaerat velit quas earum illo vel rem corrupti excepturi in quisquam deleniti. Quos.</p>
+        </div>    
+      </div>
     </div>
-</main>
+  </main>
 
-<footer>
-    <p>&copy; 2025 Article Page. All rights reserved.</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 PlacesToVisit. All rights reserved.</p>
+  </footer>
 </body>
 </html>
