@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlacesToVisit</title>
+  <link rel="stylesheet" href="styles.css">
+
+   <style>
+    /* Content and Slide */
+    main {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      min-height: 80vh;
+    }
+
+    .content {
+      max-width: 800px;
+      background: #3b4252; /* Nord dark grey */
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    h1{
+      text-align: center;
+    }
+    h1, h2 {
+      font-size: 2rem;
+      color: #d8dee9;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 1rem 0;
+      color: #e5e9f0; /* Lighter text color */
+    }
+
+    /* Slide Layout */
+    .slide-container {
+      display: block;
+    }
+
+    .slide {
+      background: #4c566a; /* Nord medium grey */
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .slide img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .slide h2,h1 {
+      font-size: 1.8rem;
+      color: #8fbcbb; /* Nord frost */
+    }
+
+    .slide p {
+      font-size: 1.1rem;
+      color: #e5e9f0;
+    }
+    /* Footer */
+    footer {
+      background-color: #3b4252; /* Nord dark grey */
+      color: #d8dee9;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .slide1 {
+    background-color: #e5e9f0;
+    color: #2e3440;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    color: #e5e9f0;
+  }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="logo.png" alt="Logo"/></a>
+      <a href="index.html"><span class="website-name">PlacesToVisit</span></a>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">States ▼</button>
+          <div class="dropdown-content">
+            <a href="delhi.html">Delhi</a>
+            <a href="himachal.html">Himachal Pradesh</a>
+            <a href="index.html#states">All States..</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="content">
+      <div class="slide-container">
+        <div class="slide">
+        <h1>Delhi : The vibrant capital of India</h1>
+        </div>
+        <div class="slide">
+          <img src="redfort.jpg" alt="Red Fort">
+          <h2>Red Fort</h2>
+          <h3></i>Overview</h3>
+          <p>
+            Located in Old Delhi, Red Fort is a major tourist attraction and a UNESCO World Heritage site. Mughal emperor Shah Jahan ordered the construction of this architectural marvel which served as the residence of Mughal emperors for nearly 200 years!
+          </p>
+          <h3>What To Expect?</h3>
+          <p>
+            Chatta Chowk, a vibrant bazaar leads you to the fort compound. Inside, explore the Drum House, Hall of Public Audiences and more.
+          </p>
+        </div>
+        <div class="slide">
+          <img src="qutub.jpg" alt="Qutub Minar">
+          <h2>Qutub Minar</h2>
+          <h3>Overview</h3>
+          <p>
+            Towering 73 metres high above the greens in Mehrauli, construction for this five-storey minaret was started by Qutb ud Din Aibak, founder of Delhi Sultanate. It is renowned for the artistic brick-work on its pillars and arches.
+          </p>
+          <h3>What To Expect?</h3>
+          <p>
+            Marvel at the blend of Hindu, Jain and Islamic architecture, read Sanskrit inscriptions on the highly corrosion-resistant iron pillar, and check out the tombs of Iltutmish and Alauddin Khalji.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PlacesToVisit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
