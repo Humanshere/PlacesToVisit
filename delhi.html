@@ -6,94 +6,9 @@
   <title>PlacesToVisit</title>
   <link rel="icon" type="image/x-icon" href="logo.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stateStyle.css">
 
-   <style>
-    /* Content and Slide */
-    main {
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-      min-height: 80vh;
-    }
 
-    .content {
-      max-width: 800px;
-      background: #3b4252; /* Nord dark grey */
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-    }
-
-    h1{
-      text-align: center;
-    }
-    h1, h2 {
-      font-size: 2rem;
-      color: #d8dee9;
-      margin-bottom: 10px;
-    }
-
-    p {
-      margin: 1rem 0;
-      color: #e5e9f0; /* Lighter text color */
-    }
-
-    /* Slide Layout */
-    .slide-container {
-      display: block;
-    }
-
-    .slide {
-      background: #4c566a; /* Nord medium grey */
-      border-radius: 8px;
-      margin-bottom: 20px;
-      padding: 20px;
-      overflow: hidden;
-    }
-
-    .slide img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-
-    .slide h2,h1 {
-      font-size: 1.8rem;
-      color: #8fbcbb; /* Nord frost */
-    }
-
-    .slide p {
-      font-size: 1.1rem;
-      color: #e5e9f0;
-    }
-    /* Footer */
-    footer {
-      background-color: #3b4252; /* Nord dark grey */
-      color: #d8dee9;
-      text-align: center;
-      padding: 20px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-    .slide1 {
-    background-color: #e5e9f0;
-    color: #2e3440;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  h3 {
-    color: #e5e9f0;
-  }
-
-  </style>
 </head>
 <body>
   <nav class="navbar">
@@ -120,7 +35,7 @@
     <div class="content">
       <div class="slide-container">
         <div class="slide">
-        <h1>Delhi : The vibrant capital of India</h1>
+        <h1>Delhi : The Vibrant Capital of India</h1>
         </div>
         <div class="slide">
           <img src="redfort.jpg" alt="Red Fort">
@@ -135,7 +50,7 @@
           </p>
         </div>
         <div class="slide">
-          <img src="qutub.jpg" alt="Qutub Minar">
+          <img src="delhi.jpg" alt="Qutub Minar">
           <h2>Qutub Minar</h2>
           <h3>Overview</h3>
           <p>
@@ -152,7 +67,9 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 PlacesToVisit. No rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2025 PlacesToVisit. No rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
